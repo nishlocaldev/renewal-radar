@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Renewal Radar</title>
     <meta name="description" content="A calm view of everything that charges you on a schedule. Works offline, keeps your data on your device, and never asks for an account." />
-    <meta name="theme-color" content="#0e0f12" />
+    <!--
+      Two colours rather than one: the browser paints the bar around the app with this, and a dark bar
+      above a cream app looks like a mistake. Kept in step with the theme by `applyAppearance`, which
+      also covers someone choosing light or dark inside the app rather than following their phone.
+    -->
+    <meta name="theme-color" content="#f6f4f1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e0f12" media="(prefers-color-scheme: dark)" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Renewal Radar" />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" href="./icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./icon-180.png" />
-    <script type="module" crossorigin src="./assets/index-CJPaH5Kh.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/style-DN2HG3g4.css">
+    <script type="module" crossorigin src="./assets/index-DHoEA-TD.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/style-RnwObYWw.css">
   </head>
   <body>
     <div id="app"></div>
